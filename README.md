@@ -1,4 +1,4 @@
-# Stock Assistant — FastAPI + LangChain + yfinance + React (Vite)
+# AI Stock Analyser
 
 A demo project that runs a LangChain agent (backed by a `c1/openai/gpt-5` model via Thesys)
 and exposes it over a streaming FastAPI endpoint. The agent can call a set of `yfinance`-based

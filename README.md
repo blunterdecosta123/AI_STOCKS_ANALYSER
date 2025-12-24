@@ -16,13 +16,13 @@ Tools exposed to the agent (yfinance helpers)
 
 The backend includes a variety of yfinance-based tools :
 
-*get_stock_price
-*get_historical_stock_price
-*get_balance_sheet
-*get_stock_news
-*get_company_info
-*get_dividends
-*get_financials
+- get_stock_price<br>
+- get_historical_stock_price<br>
+- get_balance_sheet<br>
+- get_stock_news<br>
+- get_company_info<br>
+- get_dividends<br>
+- get_financials<br>
 
 ---
 
@@ -68,10 +68,10 @@ uvicorn main:app --host 0.0.0.0 --port 8888 --reload
 
 From the `frontend/` folder:
 
-1. Create the app (if not already created):
+1. Create the app :
 
 ```bash
-npm create vite@latest frontend -- --template react
+npm create vite@latest . -- --template react-ts
 ```
 
 2. Install dependencies:
